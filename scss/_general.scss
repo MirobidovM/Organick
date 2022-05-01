@@ -16,9 +16,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: "Public Sans", "DM Serif Display", sans-serif;
-  font-size: 15px;
-  line-height: 28px;
+  font-family: "Roboto", "Yellowtail", "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: $main-color;
 }
 
 main {
