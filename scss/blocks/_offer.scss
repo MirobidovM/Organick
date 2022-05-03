@@ -1,0 +1,78 @@
+.offer {
+  padding-top: 140px;
+  padding-bottom: 160px;
+  background-color: #274c5b;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-family: "Yellowtail";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7eb693;
+  }
+
+  &__description {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 48px;
+  }
+
+  &__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274c5b;
+    padding: 25px 71px 25px 33px;
+    background-color: #efd372;
+    border: 1px solid #efd372;
+    box-sizing: border-box;
+    border-radius: 16px;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:active {
+      opacity: 0.4;
+    }
+
+    &::before {
+      content: "";
+      width: 38px;
+      height: 34px;
+      position: absolute;
+      z-index: 1;
+      top: 23px;
+      right: 15px;
+      background-image: url(../img/intro-link-str.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  &__item {
+    margin-bottom: 0;
+  }
+}
