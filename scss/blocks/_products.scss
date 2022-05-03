@@ -1,17 +1,89 @@
 .products {
-}
-
-.products__container {
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
 
 .products__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .products__item {
+  background-image: url(../img/products-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 105px 391px 105px 55px;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.products__item:hover {
+  opacity: 0.7;
+}
+
+.products__item:active {
+  opacity: 0.4;
+}
+
+.products__item:nth-child(2) {
+  background-image: url(../img/products-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 105px 346px 105px 55px;
 }
 
 .products__item-description {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #ffffff;
 }
 
 .products__item-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+}
+
+.products__item-description-2 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: $green-main;
+}
+
+.products__item-title-2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: $secondly-color;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .products__item {
+    background-image: url(../img/products-1@2x.jpg);
+  }
+
+  .products__item:nth-child(2) {
+    background-image: url(../img/products-2@2x.jpg);
+  }
 }
