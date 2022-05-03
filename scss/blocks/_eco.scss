@@ -1,0 +1,74 @@
+& {
+  &__container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__content {
+    background-color: #ffffff;
+    border-radius: 30px 0px 0px 30px;
+    padding: 40px 42px 50px 60px;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 660px;
+  }
+
+  &__title {
+    font-family: "Yellowtail";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #7eb693;
+  }
+
+  &__description {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274c5b;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    max-width: 618px;
+  }
+
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  &__item-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #274c5b;
+    margin-bottom: 4px;
+  }
+
+  &__item-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    color: #525c60;
+  }
+}
