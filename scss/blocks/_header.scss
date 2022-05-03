@@ -1,99 +1,37 @@
 .header {
   padding-top: 40px;
   padding-bottom: 40px;
-}
 
-.header__container {
-  display: flex;
-  align-items: center;
-}
+  &__container {
+    display: flex;
+    align-items: center;
+  }
 
-.logo {
-  transition: 0.3s ease;
-  margin-right: 120px;
-}
+  &__link {
+    display: flex;
+    align-items: center;
+    padding: 7px 30px 7px 11px;
+    border-radius: 33px;
+    border: 1px solid #d4d4d4;
+    transition: 0.3s ease;
+  }
 
-.logo:hover {
-  opacity: 0.7;
-}
+  &__link:hover {
+    opacity: 0.7;
+  }
 
-.logo:active {
-  opacity: 0.4;
-}
+  &__link:active {
+    opacity: 0.4;
+  }
 
-.nav {
-  margin-right: auto;
-}
-.nav__list {
-  display: flex;
-}
-.nav__item {
-  margin-right: 40px;
-}
-
-.nav__item:last-child {
-  margin-right: 0;
-  margin-left: 60px;
-}
-
-.nav__item:nth-child(4) {
-  margin-right: 0;
-}
-
-.nav__link {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 32px;
-  letter-spacing: 0.36px;
-  color: $secondly-color;
-  transition: 0.3s ease;
-}
-
-.nav__link:hover {
-  opacity: 0.6;
-}
-
-.nav__link:active {
-  opacity: 1;
-  color: $green-main;
-}
-
-.nav__link--active {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 32px;
-  letter-spacing: 0.36px;
-  color: $green-main;
-}
-
-.header__link {
-  display: flex;
-  align-items: center;
-  padding: 7px 30px 7px 11px;
-  border-radius: 33px;
-  border: 1px solid #d4d4d4;
-  transition: 0.3s ease;
-}
-
-.header__link:hover {
-  opacity: 0.7;
-}
-
-.header__link:active {
-  opacity: 0.4;
-}
-
-.header__link-text {
-  margin-left: 10px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 29px;
-  letter-spacing: 0.36px;
-  color: $secondly-color;
+  &__link-text {
+    margin-left: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: $secondly-color;
+  }
 }
