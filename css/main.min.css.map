@@ -21,7 +21,8 @@
         "../scss/blocks/_what.scss",
         "../scss/blocks/_offer.scss",
         "../scss/blocks/_eco.scss",
-        "../scss/blocks/_categories.scss"
+        "../scss/blocks/_categories.scss",
+        "../scss/blocks/_news.scss"
     ],
     "names": [],
     "file": "main.min.css"
