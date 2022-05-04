@@ -1,0 +1,193 @@
+.footer {
+  .footer__container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer__top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .footer__content-left {
+    position: relative;
+  }
+
+  .footer__content-left::before {
+    content: "";
+    width: 1px;
+    height: 369px;
+    background-color: #d5d5d5;
+    position: absolute;
+    z-index: 1;
+    right: -19px;
+  }
+
+  .footer__content-left--title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: right;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+    margin-bottom: 35px;
+  }
+
+  .footer__content-left--list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__content-left--item {
+    margin-bottom: 40px;
+  }
+
+  .footer__content-left--item:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer__content-left--item-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.36px;
+    color: #525c60;
+    margin-bottom: 5px;
+  }
+
+  .footer__content-left--item-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.36px;
+    color: #525c60;
+  }
+
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 72px;
+    margin-right: 71px;
+  }
+
+  .footer__logo {
+    margin-bottom: 44px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__content-text {
+    max-width: 567px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #525c60;
+    margin-bottom: 50px;
+  }
+
+  .footer__content-right {
+    position: relative;
+  }
+
+  .footer__content-right::before {
+    content: "";
+    width: 1px;
+    height: 369px;
+    background-color: #d5d5d5;
+    position: absolute;
+    z-index: 1;
+    left: -19px;
+  }
+
+  .footer__content-right--title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+    margin-bottom: 20px;
+  }
+  .footer__content-right--list {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__content-right--item {
+    margin-bottom: 24px;
+  }
+
+  .footer__content-right--item:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer__content-right--link {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #525c60;
+    transition: 0.3s ease;
+  }
+
+  .footer__content-right--link:hover {
+    opacity: 0.7;
+  }
+
+  .footer__content-right--link:active {
+    opacity: 0.4;
+  }
+
+  .footer__bottom {
+    padding-top: 22px;
+    padding-bottom: 27px;
+    border-top: 1px solid #d5d5d5;
+  }
+
+  .footer__bottom-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.36px;
+  }
+
+  .footer__bottom-text > span {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #274c5b;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+
+  .footer__bottom-text > span:hover {
+    opacity: 0.7;
+  }
+
+  .footer__bottom-text > span:active {
+    opacity: 0.4;
+  }
+}
