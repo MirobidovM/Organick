@@ -1,0 +1,24 @@
+.subscribe {
+  margin-bottom: 180px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/subscribe-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 80px 100px 70px;
+  }
+
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+}
