@@ -1,20 +1,20 @@
 .footer {
-  .footer__container {
+  &__container {
     margin: 0;
     padding: 0;
   }
 
-  .footer__top {
+  &__top {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
   }
 
-  .footer__content-left {
+  &__content-left {
     position: relative;
   }
 
-  .footer__content-left::before {
+  &__content-left::before {
     content: "";
     width: 1px;
     height: 369px;
@@ -24,7 +24,7 @@
     right: -19px;
   }
 
-  .footer__content-left--title {
+  &__content-left--title {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -36,20 +36,20 @@
     margin-bottom: 35px;
   }
 
-  .footer__content-left--list {
+  &__content-left--list {
     display: flex;
     flex-direction: column;
   }
 
-  .footer__content-left--item {
+  &__content-left--item {
     margin-bottom: 40px;
   }
 
-  .footer__content-left--item:last-child {
+  &__content-left--item:last-child {
     margin-bottom: 0;
   }
 
-  .footer__content-left--item-title {
+  &__content-left--item-title {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
@@ -61,7 +61,7 @@
     margin-bottom: 5px;
   }
 
-  .footer__content-left--item-text {
+  &__content-left--item-text {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -72,7 +72,7 @@
     color: #525c60;
   }
 
-  .footer__content {
+  &__content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,13 +80,13 @@
     margin-right: 71px;
   }
 
-  .footer__logo {
+  &__logo {
     margin-bottom: 44px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .footer__content-text {
+  &__content-text {
     max-width: 567px;
     font-family: "Open Sans";
     font-style: normal;
@@ -99,11 +99,11 @@
     margin-bottom: 50px;
   }
 
-  .footer__content-right {
+  &__content-right {
     position: relative;
   }
 
-  .footer__content-right::before {
+  &__content-right::before {
     content: "";
     width: 1px;
     height: 369px;
@@ -113,7 +113,7 @@
     left: -19px;
   }
 
-  .footer__content-right--title {
+  &__content-right--title {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -123,19 +123,19 @@
     color: #274c5b;
     margin-bottom: 20px;
   }
-  .footer__content-right--list {
+  &__content-right--list {
     display: flex;
     flex-direction: column;
   }
-  .footer__content-right--item {
+  &__content-right--item {
     margin-bottom: 24px;
   }
 
-  .footer__content-right--item:last-child {
+  &__content-right--item:last-child {
     margin-bottom: 0;
   }
 
-  .footer__content-right--link {
+  &__content-right--link {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -146,21 +146,21 @@
     transition: 0.3s ease;
   }
 
-  .footer__content-right--link:hover {
+  &__content-right--link:hover {
     opacity: 0.7;
   }
 
-  .footer__content-right--link:active {
+  &__content-right--link:active {
     opacity: 0.4;
   }
 
-  .footer__bottom {
+  &__bottom {
     padding-top: 22px;
     padding-bottom: 27px;
     border-top: 1px solid #d5d5d5;
   }
 
-  .footer__bottom-text {
+  &__bottom-text {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -170,7 +170,7 @@
     letter-spacing: 0.36px;
   }
 
-  .footer__bottom-text > span {
+  &__bottom-text > span {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -183,11 +183,11 @@
     cursor: pointer;
   }
 
-  .footer__bottom-text > span:hover {
+  &__bottom-text > span:hover {
     opacity: 0.7;
   }
 
-  .footer__bottom-text > span:active {
+  &__bottom-text > span:active {
     opacity: 0.4;
   }
 }
