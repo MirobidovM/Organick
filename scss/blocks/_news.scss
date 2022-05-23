@@ -29,8 +29,8 @@
     font-size: 45px;
     line-height: 58px;
     letter-spacing: 0.36px;
-    text-transform: capitalize;
     color: #274c5b;
+    text-transform: capitalize;
   }
 
   &__link {
@@ -39,8 +39,8 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    letter-spacing: 0.4px;
     text-transform: capitalize;
+    letter-spacing: 0.4px;
     color: #274c5b;
     padding: 25px 71px 25px 33px;
     background-color: #ffffff;
@@ -83,10 +83,10 @@
     background-image: url(../img/news-item-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 30px;
     padding-top: 250px;
     padding-left: 30px;
     padding-right: 30px;
-    border-radius: 30px;
   }
 
   &__item:nth-child(2) {
